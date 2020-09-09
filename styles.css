@@ -1,0 +1,44 @@
+body {
+  background-color: #25242c;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.bottom-padding {
+  padding-bottom: 0em !important;
+}
+
+.top-padding {
+  padding-top: 0.2em !important;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding: 1em;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Karla", sans-serif;
+  color: white;
+}
+
+.image-carousel {
+  max-height: 40%;
+  width: auto;
+}
+
+.img-1 {
+  filter: brightness(50%);
+}
+
+.description {
+  padding: 0.5em 10em;
+}
