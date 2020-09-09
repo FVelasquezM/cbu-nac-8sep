@@ -1,5 +1,7 @@
 body {
-  background-color: #25242c;
+  background-color: #000505;
+  font-family: "Karla", sans-serif;
+  color: white
 }
 
 h1 {
@@ -21,17 +23,19 @@ h2 {
   padding: 1em;
 }
 
+
 h3 {
   font-family: "Montserrat", sans-serif;
 }
 
-p {
-  font-family: "Karla", sans-serif;
-  color: white;
+.image-text {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: white !important;
+  font-weight: 600;
 }
 
 .image-carousel {
-  max-height: 40%;
+  max-height: 50em;
   width: auto;
 }
 
@@ -41,4 +45,8 @@ p {
 
 .description {
   padding: 0.5em 10em;
+}
+
+footer {
+  background-color: #000505 !important;
 }
